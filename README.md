@@ -1,2 +1,3 @@
-# POC.TrackableEntities.Core
+# TrackableEntities.Core
+
 Proof of concept for Trackable Entities targeting .NET Core.

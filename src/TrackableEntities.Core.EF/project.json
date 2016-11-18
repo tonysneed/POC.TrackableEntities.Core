@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0.0",
+  "dependencies": {
+    "Microsoft.EntityFrameworkCore": "1.1.0",
+    "NETStandard.Library": "1.6.1"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "TrackableEntities.Core.Common": {
+          "target": "project"
+        }
+      }
+    }
+  },
+  "buildOptions": {
+    "xmlDoc": true,
+    "keyFile": "../../tools/key.snk"
+  }
+}
